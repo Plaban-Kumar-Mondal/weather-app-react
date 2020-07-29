@@ -1,0 +1,18 @@
+%btn {
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+  border: none;
+  font-size: 1.1rem;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.btn-search {
+  @extend %btn;
+  display: inline-block;
+  color: white;
+  background-color: $secondary-color;
+}

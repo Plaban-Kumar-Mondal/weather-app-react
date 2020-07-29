@@ -1,0 +1,88 @@
+@import "config";
+@import "utilities";
+@import "buttons";
+@import "mobilies";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  min-height: 110vh;
+  width: 100vw;
+  position: relative;
+
+  nav {
+    padding: 1.2rem;
+    color: whitesmoke;
+    background-color: $primary-color;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+
+    .search-box {
+      margin: 2rem auto;
+    }
+
+    input {
+      min-width: 45vw;
+      padding: 8px 20px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+
+    .result {
+      padding: 1.8rem;
+      border-radius: 5px;
+      background-color: $primary-color;
+      color: whitesmoke;
+
+      h2 {
+        text-align: center;
+        font-weight: 500;
+      }
+
+      p {
+        margin-left: 25px;
+        font-weight: 200;
+        font-size: 1.3rem;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  footer {
+    position: absolute;
+    top: 85vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $primary-color;
+    color: whitesmoke;
+    margin-top: 1rem;
+    padding: 1.1rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 27px;
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      i {
+        color: whitesmoke;
+      }
+    }
+  }
+}
