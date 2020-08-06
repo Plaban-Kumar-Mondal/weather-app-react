@@ -75,7 +75,7 @@ const App = () => {
         <p>Created By Plaban Kumar Mondal</p>
         <p>
           <a href="https://twitter.com/PlabanKrMondal" target="_blank">
-            Follow me on <i class="fab fa-twitter-square"></i>
+            Follow Me on <i class="fab fa-twitter-square"></i>
           </a>
         </p>
       </footer>
